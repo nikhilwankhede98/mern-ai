@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,20 @@
   "bugs": {
     "url": "https://github.com/nikhilwankhede98/mern-ai/issues"
   },
-  "homepage": "https://github.com/nikhilwankhede98/mern-ai#readme"
+  "homepage": "https://github.com/nikhilwankhede98/mern-ai#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cookie": "^0.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "openai": "^3.3.0"
+  }
 }
