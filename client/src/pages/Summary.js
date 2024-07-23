@@ -122,7 +122,7 @@ const Summary = () => {
               lineHeight: "450px",
             }}
           >
-            Summary Will Apprea Here
+            Summary Will Appear Here
           </Typography>
         </Card>
       )}

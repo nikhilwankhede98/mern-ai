@@ -33,7 +33,7 @@ const Homepage = () => {
             />
             <Stack p={3} pt={0}>
               <Typography fontWeight="bold" variant="h5">
-                TEXT SUMAMRY
+                TEXT SUMMARY
               </Typography>
               <Typography variant="h6">
                 Summarize long text into short sentences
@@ -130,12 +130,12 @@ const Homepage = () => {
                 JS CONVERTER
               </Typography>
               <Typography variant="h6">
-                Trasnlate english to javascript code
+                Translate english to javascript code
               </Typography>
             </Stack>
           </Card>
         </Box>
-        <Box p={2}>
+        {/* <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
             AI SCIFI Images
           </Typography>
@@ -164,7 +164,7 @@ const Homepage = () => {
               <Typography variant="h6">Generate Scifi images</Typography>
             </Stack>
           </Card>
-        </Box>
+        </Box> */}
       </Box>
     </>
   );

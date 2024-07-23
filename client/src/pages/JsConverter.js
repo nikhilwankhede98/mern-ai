@@ -127,7 +127,7 @@ const JsConverter = () => {
               lineHeight: "450px",
             }}
           >
-            Your Code Will Apprea Here
+            Your Code Will Appear Here
           </Typography>
         </Card>
       )}
